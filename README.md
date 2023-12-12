@@ -1,4 +1,5 @@
 # CICD-Setup
+<img src="https://jenkins.io/sites/default/files/jenkins_logo.png"/>
 General installation of a CI/CD system based on Jenkins.
 
 # Installation
