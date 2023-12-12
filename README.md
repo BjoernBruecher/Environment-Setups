@@ -1,9 +1,11 @@
 # CICD-Setup
 <img src="https://jenkins.io/sites/default/files/jenkins_logo.png"/>
 General installation of a CI/CD system based on Jenkins.
-Plugins used:
-- Blue Ocean: https://plugins.jenkins.io/blueocean/ blueocean:1.27.9 https://plugins.jenkins.io/blueocean/releases/
-- Docker Pipeline : https://plugins.jenkins.io/docker-workflow/ docker-workflow:563.vd5d2e5c4007f https://plugins.jenkins.io/docker-workflow/releases/
+## Plugins used:
+| Plug-in | Link | Version | Release Notes |
+|---------|------|---------|---------------|
+| Blue Ocean | https://plugins.jenkins.io/blueocean/ | blueocean:1.27.9 | https://plugins.jenkins.io/blueocean/releases/ |
+| Docker Pipeline | https://plugins.jenkins.io/docker-workflow/ | docker-workflow:563.vd5d2e5c4007f | https://plugins.jenkins.io/docker-workflow/releases/ |
   
 # Installation
 ## Build the Jenkins Docker Image
