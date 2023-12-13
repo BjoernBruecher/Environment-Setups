@@ -17,6 +17,10 @@ docker build -t cicd:1.0 .
 ```
 docker network create jenkins
 ```
+Check docker network by
+```
+docker network ls
+```
 
 ## Run the Container
 ### MacOS / Linux
