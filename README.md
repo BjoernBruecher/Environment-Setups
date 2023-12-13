@@ -23,7 +23,7 @@ docker network ls
 ```
 
 ## Run the Container
-### MacOS / Linux
+### <img src="https://www.freepnglogos.com/uploads/apple-logo-png/file-apple-logo-black-svg-wikimedia-commons-1.png" width="20"/> MacOS / <img src="https://www.freepnglogos.com/uploads/linux-png/linux-file-tux-enhanced-svg-wikimedia-commons-9.png" width="20"/> Linux
 ```
 docker run --name jenkins-blueocean --restart=on-failure --detach \
   --network jenkins --env DOCKER_HOST=tcp://docker:2376 \
@@ -33,8 +33,12 @@ docker run --name jenkins-blueocean --restart=on-failure --detach \
   --publish 8080:8080 --publish 50000:50000 \
   cicd:1.0
 ```
+Check if docker service is running
+```
+docker ps
+```
 
-### Windows
+### <img src="https://www.freepnglogos.com/uploads/windows-logo-png/windows-logo-windows-symbol-meaning-history-and-evolution-4.png" width="20"/> Windows
 ```
 docker run --name jenkins-blueocean --restart=on-failure --detach `
   --network jenkins --env DOCKER_HOST=tcp://docker:2376 `
@@ -43,7 +47,10 @@ docker run --name jenkins-blueocean --restart=on-failure --detach `
   --volume jenkins-docker-certs:/certs/client:ro `
   --publish 8080:8080 --publish 50000:50000 cicd:1.0
 ```
-
+Check if docker service is running
+```
+docker ps
+```
 
 ## Get the Password
 ```
