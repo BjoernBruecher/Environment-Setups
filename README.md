@@ -62,7 +62,18 @@ docker exec jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword
 https://localhost:8080/
 ```
 
-## Installation Reference:
+## Log into Jenkins Container
+```
+docker exec -it jenkins-blueocean bash
+```
+Workspaces
+```
+cd /var/jenkins_home/workspace
+ls -ltra
+```
+
+
+## Installation Reference
 https://www.jenkins.io/doc/book/installing/docker/
 
 
