@@ -5,8 +5,8 @@ Visual Studio Code is a source-code editor that can be used with a variety of pr
 
 Out of the box, Visual Studio Code includes basic support for most common programming languages. This basic support includes syntax highlighting, bracket matching, code folding, and configurable snippets. Visual Studio Code also ships with IntelliSense for JavaScript, TypeScript, JSON, CSS, and HTML, as well as debugging support for Node.js. Support for additional languages can be provided by freely available extensions on the VS Code Marketplace.
 ### Installation
-- Download from here: https://code.visualstudio.com/Download
-- Download from here: https://git-scm.com/download/win
+- Download location: [Microsoft Visual Studio Code](https://code.visualstudio.com/Download)
+- Download location: [git](https://git-scm.com/download/win)
 
 ### Config
 **Configure Git access first:**
@@ -19,7 +19,7 @@ git config --global user.email johndoe@example.com
 
 [Details here.](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
-### Plug-ins
+### Plug-ins (recommended)
 
 ---
 #### <img src="https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-docker/1.28.0/1699886233608/Microsoft.VisualStudio.Services.Icons.Default" width="20"/> [**Docker**](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
@@ -49,12 +49,20 @@ This extension allows you to review and manage GitHub pull requests and issues i
 - A "Start working on issue" action which can create a branch for you.
 - Code actions to create issues from "todo" comments.
 
-
 ---
 #### <img src="https://yzhang.gallerycdn.vsassets.io/extensions/yzhang/markdown-all-in-one/3.5.1/1679819344347/Microsoft.VisualStudio.Services.Icons.Default" width="20"/> [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
 
 *Note:* VS Code has basic Markdown support out-of-the-box (e.g, Markdown preview), please see the official documentation for more information.
+
+---
+#### <img src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.1.0/1690819498575/Microsoft.VisualStudio.Services.Icons.Default" width="20"/> [**Prettier - Code formatter**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+JavaScript · TypeScript · Flow · JSX · JSON
+CSS · SCSS · Less
+HTML · Vue · Angular HANDLEBARS · Ember · Glimmer
+GraphQL · Markdown · YAML
 
 ---
 #### <img src="https://wayou.gallerycdn.vsassets.io/extensions/wayou/vscode-todo-highlight/1.0.5/1635478170130/Microsoft.VisualStudio.Services.Icons.Default" width="20"/> [**TODO Highlight**](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
