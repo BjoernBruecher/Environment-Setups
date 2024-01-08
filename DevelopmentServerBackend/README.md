@@ -13,7 +13,6 @@ docker build -t cicd:1.0 .
 ```
 
 ## Create the network 'jenkins'
-```
 docker network create jenkins
 ```
 Check docker network by
