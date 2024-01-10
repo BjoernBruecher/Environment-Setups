@@ -53,6 +53,10 @@ Visual Studio Code extension embedding npm-groovy-lint, itself embedding CodeNar
 - If you use CI, you can integrate Mega-Linter in your workflow, to make sure all your sources (groovy and other) are clean
 
 ---
+#### <img src="https://formulahendry.gallerycdn.vsassets.io/extensions/formulahendry/code-runner/0.12.1/1696752986258/Microsoft.VisualStudio.Services.Icons.Default" width="20"/> [**Code Runner**](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+xxRun code snippet or code file for multiple languages: C, C++, Java, JavaScript, PHP, Python, Perl, Perl 6, Ruby, Go, Lua, Groovy, PowerShell, BAT/CMD, BASH/SH, F# Script, F# (.NET Core), C# Script, C# (.NET Core), VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml Script, R, AppleScript, Elixir, Visual Basic .NET, Clojure, Haxe, Objective-C, Rust, Racket, Scheme, AutoHotkey, AutoIt, Kotlin, Dart, Free Pascal, Haskell, Nim, D, Lisp, Kit, V, SCSS, Sass, CUDA, Less, Fortran, Ring, Standard ML, Zig, Mojo, and custom command
+
+---
 #### <img src="https://streetsidesoftware.gallerycdn.vsassets.io/extensions/streetsidesoftware/code-spell-checker/3.0.1/1694424431035/Microsoft.VisualStudio.Services.Icons.Default" width="20"/> [**Code Spell Checker**](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 Spelling checker for source code
 
